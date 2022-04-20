@@ -38,3 +38,8 @@ body {
     background-size: 100% 3px;
     background-position: 50% 100%
 }
+
+.heading span {
+    line-height: 3.5;
+    height: calc(100% / 3);
+}
