@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import Message from "./components/Message";
 import Quote from "./components/Quote";
 import Services from "./components/Services";
+import Slider from "./components/Slider";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Quote />
         <Services />
         <Features />
+        <Slider />
       </div>
     </div>
   );

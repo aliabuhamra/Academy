@@ -5,7 +5,7 @@ const Hero = () => {
     <div className="flex items-center justify-between px-32 mt-20 ">
        <div className='w-2/4'>
            <img src="assets/images/person.svg" alt=""   
-             className='pr-10 pt-8 w-fit ml-8'
+             className='pr-10 pt-8 w-fit mr-8'
            />               
         </div>
         <div className="w-2/4 flex p-0 -mt-9 -ml-10">
