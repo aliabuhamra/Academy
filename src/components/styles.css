@@ -1,0 +1,51 @@
+
+.swiper {
+    width: 92%;
+}
+
+section {
+    position: relative;
+    height: auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin: 70px auto;
+}
+
+section .swiper-slide img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+.swiper-slide {
+    position: relative;
+    border-radius: 20px;
+    margin: 20px 0;
+    width: 480px;
+    padding: 0;
+    border: 1px solid rgba(10, 0, 0, 0.281);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.swiper-button-next::after, .swiper-button-prev::after {
+    content: url(/public/assets/icons/arrow_circular.svg) !important;
+    display: block;
+    color: #FBD675;
+    font-size: 5rem;
+}
+
+.swiper-button-prev::after {
+    transform: rotate(180deg);
+    margin-top: 12px;
+}
+
+.swiper-pagination {
+    display: none;
+}

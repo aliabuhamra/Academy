@@ -5,6 +5,10 @@ module.exports = {
       'orange' : '#FBD675',
       'white': '#ffffff',
       'black': '#000000',
+      'lightgray': '#f8f8f8',
+      'lightBlue' : '#2994F8',
+      'gray' : '#eee',
+      'lightBlack' : 'rgba(10, 0, 0, 0.281)'
     },
     extend: {
       backgroundImage: {
