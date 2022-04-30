@@ -13,7 +13,14 @@ module.exports = {
     extend: {
       backgroundImage: {
         'background': "url('../public/assets/images/map.svg')",
-      }
+      },
+      boxShadow: {
+        '3xl': 'rgba(0, 0, 0, 0.1) 0 0 20px',
+      },
+      fontFamily: {
+        bold: ["Al-Jazeera-Arabic-Bold", "sans-serif"],
+        regu: ["Al-Jazeera-Arabic-Regular", "sans-serif"],
+      },
     },
   },
   plugins: [],
