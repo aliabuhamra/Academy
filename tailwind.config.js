@@ -22,7 +22,10 @@ module.exports = {
       'md': '768px',
       // => @media (min-width: 960px) { ... }
 
-      'lg': '1440px',
+      'lg': '987px',
+      // => @media (min-width: 1440px) { ... }
+
+      'xl': '1440px',
       // => @media (min-width: 1440px) { ... }
     },
   },

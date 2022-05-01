@@ -5,7 +5,6 @@ import Features from "./../components/Features";
 import Message from "./../components/Message";
 import Quote from "./../components/Quote";
 import Services from "./../components/Services";
-import Slider from "./../components/Slider";
 
 const Main = () => {
   return (
@@ -17,7 +16,7 @@ const Main = () => {
                 ويملك أساس لمستقبل أفضل لعالمنا العربي والاسلامي.`}/>
         <Services />
         <Features />
-        <Slider />
+       
         {/* <Quote text={`نحو عالم يتفوق فيه شبابنا بمهاراتهم ولا يكون أبعد طموحهم
           وظيفة لا تعيلهم اذا مرضوا`}/> */}
     </div>

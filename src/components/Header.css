@@ -1,0 +1,24 @@
+@media (max-width: 987px) {
+    .listItems {
+        background-color: rgb(58, 56, 56);
+        flex-wrap: wrap;
+        margin: auto;
+        color: #fff;
+        text-align: center;
+        /* line-height: 1; */
+        position: absolute;
+        left: 0;
+        /* bottom: -70%; */
+        padding: 0 3rem;
+        transform: translate(-50%, 80%);
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .listItems li {
+        display: block;
+        padding-bottom: 5px;
+    }
+
+}
