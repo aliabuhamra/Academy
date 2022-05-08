@@ -1,6 +1,9 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
+    fontFamily: {
+      aljazeera: "Al-Jazeera, -apple-system"
+    },
     colors:{
       'orange' : '#FBD675',
       'white': '#ffffff',

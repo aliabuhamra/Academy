@@ -2,26 +2,21 @@ import React from "react";
 
 import Main from "./components/Main";
 import JoinUs from "./components/JoinUs";
-import Home from "./components/Home";
-import AboutUs from "./components/AboutUs";
-import Services from "./components/Services";
-import Features from "./components/Features";
+// import Home from "./components/Home";
 
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route,Routes } from "react-router-dom";
+import Header from "./components/Header";
 
 function App() {
   return (
     <div className="pt-10">
       <div>
         <Router>
-          <Home />
-          {/* <Switch> */}
-            <Route path="/about-us" component={AboutUs} />
-            <Route path="/services" component={Services}  />
-            <Route path="/features" component={Features}  />
-            <Route path="/" component={Main}  exact/>
-            <Route path="/join-us" component={JoinUs}/>
-        {/* </Switch> */}
+          <Header />
+          <Routes>
+            <Route path="/" element={<Main />}  />
+            <Route path="/join-us" element={<JoinUs />} exact/>
+        </Routes>
         </Router>
       </div>
     </div>

@@ -5,7 +5,7 @@ import Quote from './Quote';
 
 const Features = () => {
   return (
-    <div className="features lg:px-16  w-full sm:px-0 absolute">
+    <div className="features lg:px-16  w-full sm:px-0 absolute" id='features'>
         <div className="section ">
             <div className="section-container mx-auto sm:p-0 ">
                 <div className="mx-auto text-center relative flex justify-center">

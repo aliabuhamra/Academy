@@ -5,11 +5,12 @@ import Features from "./../components/Features";
 import Message from "./../components/Message";
 import Quote from "./../components/Quote";
 import Services from "./../components/Services";
+import Hero from './Hero';
 
 const Main = () => {
   return (
     <div>
-        
+        <Hero />
        <Message />
         <AboutUs />
         <Quote text={`                معا لنبني جيل يعمل باقبال على الحياة, متمسك بمبادئه

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className="flex items-center sm:w-full justify-between px-32 mt-20 md:px-14 sm:px-12">
+    <div className="flex items-center sm:w-full justify-between lg:px-32 px-32 mt-20 md:px-14 sm:px-12 bg-background bg-no-repeat bg-left bg-[length:80%_100%] h-[80vh]">
        <div className='w-2/4'>
            <img src="assets/images/person.svg" alt=""   
              className='pr-10 sm:pr-2 pt-8 w-fit mr-8 lg:w-3/4 md:w-3/4 md:mr-4 sm:-mr-2 md:pr-0 sm:w-11/12 sm:mb-5'
