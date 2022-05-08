@@ -8,6 +8,7 @@ module.exports = {
       'lightgray': '#f8f8f8',
       'lightBlue' : '#2994F8',
       'gray' : '#eee',
+      'grate': '#e1e1e1',
       'lightBlack' : 'rgba(10, 0, 0, 0.281)'
     },
     extend: {
@@ -22,7 +23,7 @@ module.exports = {
       'md': '768px',
       // => @media (min-width: 960px) { ... }
 
-      'lg': '987px',
+      'lg': '985px',
       // => @media (min-width: 1440px) { ... }
 
       'xl': '1440px',

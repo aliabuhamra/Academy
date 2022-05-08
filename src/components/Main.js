@@ -1,5 +1,5 @@
 import React from 'react';
-import Hero from "./../components/Hero";
+// import Hero from "./../components/Hero";
 import AboutUs from "./../components/AboutUs";
 import Features from "./../components/Features";
 import Message from "./../components/Message";
@@ -9,7 +9,7 @@ import Services from "./../components/Services";
 const Main = () => {
   return (
     <div>
-        <Hero />
+        
        <Message />
         <AboutUs />
         <Quote text={`                معا لنبني جيل يعمل باقبال على الحياة, متمسك بمبادئه
@@ -17,8 +17,6 @@ const Main = () => {
         <Services />
         <Features />
        
-        {/* <Quote text={`نحو عالم يتفوق فيه شبابنا بمهاراتهم ولا يكون أبعد طموحهم
-          وظيفة لا تعيلهم اذا مرضوا`}/> */}
     </div>
   )
 }

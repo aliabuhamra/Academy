@@ -2,7 +2,7 @@ import React from "react";
 
 import Main from "./components/Main";
 import JoinUs from "./components/JoinUs";
-import Header from "./components/Header";
+import Home from "./components/Home";
 import AboutUs from "./components/AboutUs";
 import Services from "./components/Services";
 import Features from "./components/Features";
@@ -14,7 +14,7 @@ function App() {
     <div className="pt-10">
       <div>
         <Router>
-          <Header />
+          <Home />
           {/* <Switch> */}
             <Route path="/about-us" component={AboutUs} />
             <Route path="/services" component={Services}  />
