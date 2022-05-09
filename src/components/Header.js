@@ -11,7 +11,7 @@ export default function Header() {
     const handleClick = () => setClick(!click);
 
     return (
-        <header className="flex  items-center justify-between xl:px-32 md:px-12 sm:px-8 mx-auto">
+        <header className="flex  items-center lg:pt-4 justify-between xl:px-32 md:px-12 sm:px-8 mx-auto">
 
             {/* List */}
             <div className={click ? "flex xl:flex items-center lg:justify-between md:justify-between w-full relative menu" 
