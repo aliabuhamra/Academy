@@ -5,16 +5,11 @@ import Message from "./../components/Message";
 import Quote from "./../components/Quote";
 import Services from "./../components/Services";
 import Hero from './Hero';
-import OurWork from './components/ourWork';
-import TheName from './components/theName';
-import OurTeam  from './components/ourTeam ';
-import ThirdQuote from './components/thirdQuote';
-import StoreIcon from './components/storeIcon';
-import Footer from './components/footer';
+
 
 const Main = () => {
   return (
-    <div>
+    <div className='mb-32'>
         <Hero />
        <Message />
         <AboutUs />
@@ -22,12 +17,7 @@ const Main = () => {
                 ويملك أساس لمستقبل أفضل لعالمنا العربي والاسلامي.`}/>
         <Services />
         <Features />
-        <OurWork /> 
-        <TheName />
-        <OurTeam />
-        <ThirdQuote />
-        <StoreIcon />
-        <Footer />
+      
        
     </div>
   )
