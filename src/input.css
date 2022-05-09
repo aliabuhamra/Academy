@@ -18,6 +18,8 @@ html,
 body {
     direction: rtl;
     font-family: Al-Jazeera, -apple-system;
+    margin: 0;
+    padding: 0;
 }
 
 .link-underline {

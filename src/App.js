@@ -1,37 +1,28 @@
-import AboutUs from "./components/AboutUs";
-import Features from "./components/Features";
-import Home from "./components/Home";
-import Message from "./components/Message";
-import Quote from "./components/Quote";
-import Services from "./components/Services";
-import Slider from "./components/Slider";
-import OurWork from './components/ourWork';
-import TheName from './components/theName';
-import OurTeam  from './components/ourTeam ';
-import ThirdQuote from './components/thirdQuote';
-import StoreIcon from './components/storeIcon';
-import Footer from './components/footer';
+
+import React from "react";
+
+import Main from "./components/Main";
+import JoinUs from "./components/JoinUs";
+
+import { BrowserRouter as Router, Route,Routes } from "react-router-dom";
+import Header from "./components/Header";
+
 
 function App() {
   return (
     <div className="pt-10">
       <div>
-        <Home />
-        <Message />
-        <AboutUs />
-        <Quote />
-        <Services />
-        <Features />
-        <Slider />
-        <OurWork /> 
-        <TheName />
-        <OurTeam />
-        <ThirdQuote />
-        <StoreIcon />
-        <Footer />
+        <Router>
+          <Header />
+          <Routes>
+            <Route path="/" element={<Main />}  />
+            <Route path="/join-us" element={<JoinUs />} exact/>
+        </Routes>
+        </Router>
       </div>
     </div>
   );
 }
 
 export default App;
+
