@@ -1,5 +1,4 @@
 import React , { useState } from 'react'
-import Footer from './footer';
 import './Header.css';
 
 import { NavLink } from 'react-router-dom';
@@ -44,7 +43,6 @@ const JoinUs = () => {
       </div>
       
     </div>
-    <Footer />
     </>
   )
 }

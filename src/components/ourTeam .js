@@ -3,7 +3,7 @@ import React from 'react';
 const OurTeam  = () => {
   return (
     <div>
-      <div class="relative px-32 pt-[250px] pb-[200px] text-center text-3xl font-bold leading-loose">
+      <div class="relative px-32 pt-[250px] pb-[200px] text-center text-3xl leading-loose font-semibold">
         <div class="relative">
         <h1 className="m-auto text-center text-5xl m-4">فريقنــا</h1>
         <div className="absolute right-[45%] left-[45%] mt-[20px] border-t-[5px] border-[#FBD675] "></div>
