@@ -37,7 +37,8 @@ export default function Header() {
                     <li><a href="#ourteam"  className='link link-underline link-underline-black hover:cursor-pointer'>فريقنـا</a></li>
                 </ul>
              {/* Join us Button */}
-             <Button text="انضم لنـا" click={click}/>
+             <Button text="انضم لنـا" click={click}/> 
+             
             </div>
 
         </header>

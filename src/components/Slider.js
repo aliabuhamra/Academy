@@ -18,7 +18,7 @@ import { Pagination, Navigation } from "swiper";
 const Slider = () => {
   return (
      
-      <div className="w-full">
+      <div className="w-full mt-[82%]">
       <section>
           <Swiper
           slidesPerView={3}

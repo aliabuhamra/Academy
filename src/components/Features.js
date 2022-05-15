@@ -1,13 +1,14 @@
 import React from 'react';
-import Slider from "./../components/Slider";
-import Quote from './Quote';
+// import Slider from "./Slider";
+// import Quote from './Quote';
 
 
 const Features = () => {
   return (
-    <div className="features lg:px-16  w-full sm:px-0 absolute" id='features'>
+
+    <div className="features lg:px-16  w-full sm:px-0 " id='features'>
         <div className="section ">
-            <div className="section-container mx-auto sm:p-0 ">
+            <div className="section-container mx-auto sm:p-0 absolute">
                 <div className="mx-auto text-center relative flex justify-center">
                     <h2 className="lg:text-4xl sm:text-3xl py-8 mb-8 text-center font-black">المسارات</h2>
                     <span className="bg-orange w-28 sm:w-20 h-1 absolute rounded mt-24"></span>
@@ -57,11 +58,11 @@ const Features = () => {
                 <p className="section-text  font-black py-16 leading-loose  
                 text-4xl sm:text-3xl -mt-4 text-center"> قريبا ...</p>
             </div>
-             <Slider />
+             {/* <Slider /> */}
         </div>
-        
+{/*         
         <Quote text={`نحو عالم يتفوق فيه شبابنا بمهاراتهم ولا يكون أبعد طموحهم
-          وظيفة لا تعيلهم اذا مرضوا`}/>
+          وظيفة لا تعيلهم اذا مرضوا`}/> */}
   </div>
   )
 }
