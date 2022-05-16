@@ -24,15 +24,10 @@
 
 html,
 body {
-<<<<<<< HEAD
   direction: rtl;
   font-family: Al-Jazeera, -apple-system;
-=======
-    direction: rtl;
-    font-family: Al-Jazeera, -apple-system;
-    margin: 0;
-    padding: 0;
->>>>>>> dc5070c9696d0b6211bf9f8ca5cfc6338a02ec46
+  margin: 0;
+  padding: 0;
 }
 
 .link-underline {
