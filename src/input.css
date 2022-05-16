@@ -3,43 +3,53 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'Al-Jazeera';
-    src: url('../public/assets/fonts/Al-Jazeera-Arabic-Bold.ttf');
-    font-weight: bold;
+  font-family: "Al-Jazeera";
+  src: url("../public/assets/fonts/Al-Jazeera-Arabic-Bold.ttf");
+  font-weight: bold;
 }
 
 @font-face {
-    font-family: 'Al-Jazeera';
-    src: url('../public/assets/fonts/Al-Jazeera-Arabic-Regular.ttf');
-    font-weight: normal;
+  font-family: "Al-Jazeera";
+  src: url("../public/assets/fonts/Al-Jazeera-Arabic-Regular.ttf");
+  font-weight: normal;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  scroll-margin-top: 4rem;
 }
 
 html,
 body {
-    direction: rtl;
-    font-family: Al-Jazeera, -apple-system;
+  direction: rtl;
+  font-family: Al-Jazeera, -apple-system;
 }
 
 .link-underline {
-    padding-bottom: 10px;
-    border-bottom-width: 0;
-    background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
-    background-size: 0 3px;
-    background-position: 50% 100%;
-    background-repeat: no-repeat;
-    transition: background-size .5s ease-in-out;
+  padding-bottom: 10px;
+  border-bottom-width: 0;
+  background-image: linear-gradient(transparent, transparent),
+    linear-gradient(#fff, #fff);
+  background-size: 0 3px;
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.5s ease-in-out;
 }
 
 .link-underline-black {
-    background-image: linear-gradient(transparent, transparent), linear-gradient(#FBD675, #FBD675)
+  background-image: linear-gradient(transparent, transparent),
+    linear-gradient(#fbd675, #fbd675);
 }
 
 .link-underline:hover {
-    background-size: 100% 3px;
-    background-position: 50% 100%
+  background-size: 100% 3px;
+  background-position: 50% 100%;
 }
 
 .heading span {
-    line-height: 3.5;
-    height: calc(100% / 3);
+  line-height: 3.5;
+  height: calc(100% / 3);
 }

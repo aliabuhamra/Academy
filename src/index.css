@@ -2,16 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 @font-face {
-  font-family: 'Al-Jazeera-Arabic-Bold';
+  font-family: "Al-Jazeera-Arabic-Bold";
   font-weight: bold;
-  src: url('../public/assets/fonts/Al-Jazeera-Arabic-Bold.ttf') format('truetype');
+  src: url("../public/assets/fonts/Al-Jazeera-Arabic-Bold.ttf")
+    format("truetype");
 }
 
 @font-face {
-  font-family: 'Al-Jazeera-Arabic-Regular';
+  font-family: "Al-Jazeera-Arabic-Regular";
   font-weight: normal;
-  src: url('../public/assets/fonts/Al-Jazeera-Arabic-Regular.ttf') format('truetype');
+  src: url("../public/assets/fonts/Al-Jazeera-Arabic-Regular.ttf")
+    format("truetype");
 }
