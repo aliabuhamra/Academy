@@ -30,11 +30,11 @@ export default function Header() {
                 <ul className={click ? "flex xl:flex lg:flex justify-between w-3/4 text-lg md:text-sm listItems sm:hidden md:hidden lg:pl-16 lg:pr-8"
                     : "flex xl:flex justify-between w-3/4 text-lg md:text-lg listItems lg:pl-16 lg:pr-8"}>
                     <li><NavLink to="/" className='link link-underline link-underline-black hover:cursor-pointer '>الصفحة الرئيسية</NavLink></li>
-                    <li><a href="#about-us" className='link link-underline link-underline-black hover:cursor-pointer'>من نحـن</a></li>
+                    <li><a href="#whous" className='link link-underline link-underline-black hover:cursor-pointer'>من نحـن</a></li>
                     <li><a href="#services" className='link link-underline link-underline-black hover:cursor-pointer'>ماذا نقـدم</a></li>
-                    <li><a href="#features" className='link link-underline link-underline-black hover:cursor-pointer'>المسـارات</a></li>
-                    <li><a href="#ourwok" className='link link-underline link-underline-black hover:cursor-pointer'>أعمالنـا</a></li>
-                    <li><a href="#ourteam" className='link link-underline link-underline-black hover:cursor-pointer'>فريقنـا</a></li>
+                    <li><a href="#paths" className='link link-underline link-underline-black hover:cursor-pointer'>المسـارات</a></li>
+                    <li><a href="#works" className='link link-underline link-underline-black hover:cursor-pointer'>أعمالنـا</a></li>
+                    <li><a href="#teams" className='link link-underline link-underline-black hover:cursor-pointer'>فريقنـا</a></li>
                 </ul>
                 {/* Join us Button */}
                 <Button text="انضم لنـا" click={click} />

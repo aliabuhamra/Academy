@@ -4,7 +4,7 @@ const OurWork = () => {
   return (
     <div className="py-[40px] leading-[2.6rem] font-semibold text-gray-800 ">
       <div className="relative">
-        <h1 className="m-auto text-center text-5xl sm:text-2xl m-4">من أعمالنا</h1>
+        <h1 id="works" className="m-auto text-center text-5xl sm:text-2xl m-4">من أعمالنا</h1>
         <div className="absolute right-[45%] left-[45%] mt-[20px] border-t-[5px] border-[#FBD675]"></div>
       </div>
 

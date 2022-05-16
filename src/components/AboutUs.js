@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutUs = () => {
     return (
-        <div className="lg:px-32 py-2 md:px-16 sm:px-10" id='about-us'>
+        <div className="lg:px-32 py-2 md:px-16 sm:px-10" id='whous'>
             <div className="section mx-auto p-10 sm:p-0">
                 <div className=" m-auto lg:p-16 sm:p-3 basis-4/5 md:basis-11/12">
                     <div className=" mx-auto text-center relative flex justify-center">

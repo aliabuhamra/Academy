@@ -6,7 +6,7 @@ import React from 'react';
 const Features = () => {
     return (
 
-        <div className="features lg:px-16  w-full sm:px-0 " id='features'>
+        <div className="features lg:px-16  w-full sm:px-0 " id='paths'>
             <div className="section ">
                 <div className="section-container mx-auto sm:p-0 absolute">
                     <div className="mx-auto text-center relative flex justify-center">
